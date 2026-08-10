@@ -1,0 +1,34 @@
+# 敏感配置
+config/config.toml
+.env
+*.env
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 日志
+logs/
+*.log
+
+# 数据
+data/*.jsonl
+data/*.db
+
+# 系统文件
+.DS_Store
+Thumbs.db
